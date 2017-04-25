@@ -37,7 +37,7 @@ class WeatherDisplay extends Component {
     return (
       <div>
         <h1>
-          {weather.main} in {weatherData.name} {this.props.zip}
+          {weather.main} in {weatherData.name}
           <img src={iconUrl} alt={weatherData.description} />
         </h1>
         <p>Current: {weatherData.main.temp}°</p>
